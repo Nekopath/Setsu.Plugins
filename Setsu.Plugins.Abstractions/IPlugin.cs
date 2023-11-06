@@ -1,4 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Setsu.Results;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Setsu.Plugins.Abstractions
 {
@@ -6,7 +10,7 @@ namespace Setsu.Plugins.Abstractions
     {
         public string Name { get; }
         public string Description { get; }
-        public void RegisterServices(IServiceCollection collection);
-        public void Initialize(IServiceProvider provider);
+        public Result RegisterServices(IServiceCollection collection);
+        public ValueTask<Result> InitializeAsync(IServiceProvider provider, CancellationToken cts);
     }
 }

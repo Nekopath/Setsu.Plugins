@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34227.203
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setsu.Plugins", "Setsu.Plugins\Setsu.Plugins.csproj", "{662832E1-F543-4D9F-8D8C-4E3B9141AD8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Setsu.Plugins", "Setsu.Plugins\Setsu.Plugins.csproj", "{662832E1-F543-4D9F-8D8C-4E3B9141AD8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setsu.Plugins.Abstractions", "Setsu.Plugins.Abstractions\Setsu.Plugins.Abstractions.csproj", "{07A444DA-504A-4B3A-8DE0-34EC6FD53DDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Setsu.Plugins.Abstractions", "Setsu.Plugins.Abstractions\Setsu.Plugins.Abstractions.csproj", "{07A444DA-504A-4B3A-8DE0-34EC6FD53DDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Setsu.Results", "..\Setsu.Results\Setsu.Results\Setsu.Results.csproj", "{F2D63983-BA79-4139-B0AB-88DD9903F480}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{07A444DA-504A-4B3A-8DE0-34EC6FD53DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07A444DA-504A-4B3A-8DE0-34EC6FD53DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07A444DA-504A-4B3A-8DE0-34EC6FD53DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D63983-BA79-4139-B0AB-88DD9903F480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D63983-BA79-4139-B0AB-88DD9903F480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D63983-BA79-4139-B0AB-88DD9903F480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D63983-BA79-4139-B0AB-88DD9903F480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
